@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "initial_prompt": "Build a REST API for managing tasks with CRUD operations",
+  "title": "Task Manager API",
+  "slug": "task-manager-api",
+  "intent": "Create a production-ready REST API that allows users to manage their tasks with full CRUD capabilities",
+  "deliverables": [
+    "REST API server with CRUD endpoints",
+    "Database schema and migrations",
+    "API documentation (OpenAPI/Swagger)",
+    "Integration tests",
+    "Docker deployment config"
+  ],
+  "constraints": {
+    "hard": [
+      "Must use Node.js and Express",
+      "Must use PostgreSQL for persistence",
+      "Must include authentication via JWT"
+    ],
+    "soft": [
+      "Prefer TypeScript over JavaScript",
+      "Consider rate limiting for production"
+    ]
+  },
+  "non_goals": [
+    "Frontend UI",
+    "Real-time websocket updates",
+    "Mobile app support"
+  ],
+  "acceptance_criteria": [
+    "All CRUD endpoints respond correctly",
+    "Integration tests have >80% coverage",
+    "API documentation is complete and accurate",
+    "Docker container starts and serves requests",
+    "Authentication middleware protects routes"
+  ],
+  "validation_plan": "npm test && npm run lint && docker-compose up -d && curl http://localhost:3000/health",
+  "target_environment": {
+    "language": "TypeScript/Node.js",
+    "toolchain": "npm/Node 18+",
+    "os": "Linux/macOS",
+    "runtime": "Node.js runtime in Docker"
+  },
+  "metadata": {}
+}
