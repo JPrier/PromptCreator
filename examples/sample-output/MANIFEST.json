@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "purpose": "Project guidelines and context for AI agents",
+      "usage": "Read this file to understand project constraints and requirements"
+    },
+    {
+      "path": ".agent/PLANS.md",
+      "purpose": "ExecPlan methodology documentation",
+      "usage": "Reference this to understand how to structure and follow execution plans"
+    },
+    {
+      "path": ".agent/EXECPLAN.md",
+      "purpose": "The actual execution plan for this project",
+      "usage": "Follow this milestone-by-milestone to implement the project"
+    },
+    {
+      "path": "ONE_SHOT_PROMPT.md",
+      "purpose": "Single prompt to paste into Codex for execution",
+      "usage": "Copy and paste this entire file into Codex to start implementation"
+    },
+    {
+      "path": "SPEC.json",
+      "purpose": "Machine-readable frozen specification",
+      "usage": "Reference this for programmatic access to project requirements"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Human-readable guide for using this prompt pack",
+      "usage": "Start here to understand how to use these generated files"
+    },
+    {
+      "path": "MANIFEST.json",
+      "purpose": "Index of all generated files with purposes",
+      "usage": "This file - provides overview of the prompt pack contents"
+    }
+  ],
+  "generated_at": "2026-02-27T04:19:08.363985583+00:00",
+  "how_to_use": [
+    "1. Read README.md in this directory for an overview",
+    "2. Copy the contents of ONE_SHOT_PROMPT.md",
+    "3. Paste it into Codex (cloud or CLI) in your target repository",
+    "4. Codex will read the .agent files and execute the plan",
+    "5. Monitor progress by checking updates to .agent/EXECPLAN.md"
+  ],
+  "project": "Task Manager API",
+  "slug": "task-manager-api",
+  "version": "1.0"
+}
